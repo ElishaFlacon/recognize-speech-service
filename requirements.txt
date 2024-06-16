@@ -4,3 +4,5 @@ python-dotenv
 moviepy
 SpeechRecognition
 requests
+nemo-toolkit[all]
+soundfile

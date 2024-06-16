@@ -27,4 +27,4 @@ class Config:
     def start_app(self):
         if self.__get_app_mode() == "PROD":
             return
-        uvicorn.run(self.app, host="0.0.0.0", port=8000)
+        uvicorn.run(self.app, host="0.0.0.0", port=6000)
